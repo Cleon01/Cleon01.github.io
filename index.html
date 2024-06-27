@@ -1,0 +1,252 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet"
+        href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+    <!-- Navbar header section -->
+    <header> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Sea Ran Cleon Liew</h2> 
+            </div>  
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#home"> Home </a>  </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#portfolio"> Skills </a>  </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#about"> About </a> </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#projects"> Projects </a> </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#contact"> Contact Me </a> </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+
+    <!-- Main banner -->
+    <section id="home" class="myIntro"> 
+        <div class="intro"> 
+            <div> 
+                <h3 class="greet-heading">Hello, I'm</h3> 
+                <h1 class="my-heading">Sea Ran Cleon Liew</h1> 
+                <h4 class="sub-heading"> 
+                    A student who just graduated from the University of Waterloo majoring in Computational 			    Mathematics and minoring in Computing. 
+                </h4> 
+            <div class="intro-buttons"> 
+            	<a href="resume.pdf" download>
+            		<button class="btn ghost-btn">Get Resume</button>  </a> 
+            </div> 
+    </section> 
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio"> 
+        <div> 
+            <h1 class="my-heading text-center">Skills</h1> 
+        </div> 
+        <div > 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <h3 class="greet-heading blue-text">Programming</h3> 
+                        <p class="small-para blue-text">Python, R, C, Java, SQL, Bash Script, HTML</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <h3 class="greet-heading blue-text"> 
+                            Machine Learning 
+                        </h3> 
+                        <p class="small-para blue-text"> scikit-learn, Keras, TensorFlow, Pytorch, Cuda 
+				(E.g., SVM, Random Forest, Vision Transformer, ResNet, Inception, 
+				Convolutional Layers, Autoencoder) </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <h3 class="greet-heading blue-text"> Web Scraping </h3> 
+                        <p class="small-para blue-text"> BeautifulSoup, Scrapy, Splash, Lua </p> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <h3 class="greet-heading blue-text"> 
+                            Automation 
+                        </h3> 
+                        <p class="small-para blue-text">Selenium, Appium (Web, Android, iOS)</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <h3 class="greet-heading blue-text"> 
+                            Networking
+                        </h3> 
+                        <p class="small-para blue-text"> 
+                            Wireshark, HTTP, DNS, TCP/ UDP  </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <h3 class="greet-heading blue-text"> 
+                            Others 
+                        </h3> 
+                        <p class="small-para blue-text">   Linux, Git, LaTeX, Cloud Computing (AWS), 
+				Microsoft Office Software (E.g., Power BI, VBA)</p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- About Section -->
+    <section id="about" class="about"> 
+        <div class="about-text"> 
+            <h1 class="my-heading">About Me (Cleon) </h1> 
+            <p class="lead-para"> 
+		I possess a robust foundation in programming, machine learning, deep learning, web scraping, 
+		and automation. My coursework, including "Designing Functional Programs," "Elementary 
+		Algorithm Design and Data Abstraction," and "Neural Networks," equipped me with essential 
+		programming and AI knowledge. These skills have been further refined through internships 
+		and research experiences.  </p> 
+	    <p>
+		During my internship at Ontopical, I developed web scrapers to extract multimedia content 
+		from websites using technologies such as BeautifulSoup, Scrapy, Splash, and Selenium. 
+		At Nokia, I utilized Wireshark for packet inspection and tested the effectiveness of 
+		application filters in capturing core function traffic. Additionally, I used Appium to 
+		automate traffic detection testing on Android and iOS platforms.    </p>
+            <p> 
+		My research projects in AI have been diverse and impactful. I developed deep-learning models 
+		to predict cancer metastasis using nerve cell images and explored methods for encoding 
+		data in FHIR structures to enhance transformer model processing. Furthermore, I have 
+		published papers on using AI for phishing link detection and domain generation 
+		algorithm classification, demonstrating my contributions to advancing AI research.  </p> 
+	    <h2>Published Papers: </h2>
+            <div class="intro-buttons"> 
+    		<a href="https://cybersecurity.springeropen.com/articles/10.1186/s42400-023-00183-8" 
+			target="_blank">
+        		<button class="btn ghost-btn">Use of subword tokenization for domain generation 
+			algorithm classification</button>
+    		</a> 
+	    </div> 
+
+	    <div class="intro-buttons"> 
+    		<a href="https://ieeexplore.ieee.org/document/9979860" target="_blank">
+        	       <button class="btn ghost-btn">BEAM - An Algorithm for Detecting Phishing Link</button>
+    		</a> 
+
+            </div> 
+    </section> 
+ 
+
+    <!-- Project Section -->
+    <section class="portfolio" id="projects"> 
+        <div> 
+            <h1 class="my-heading text-center">My Projects</h1>
+ 	    <h3 class="text-center"> Click the boxes for more details </h3> 
+        </div> 
+        <div > 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card-2" onclick="window.open('https://github.com/Cleon01/Cleon01.github.io/tree/master/Projects/Calculator', '_blank');"> 
+                        <h3 class="greet-heading blue-text">
+				Scientific Calculator with Java	</h3> 
+                        <p class="small-para blue-text">
+				Two special built in functions:
+			(1) Annualized Return Calculation and (2) Monthly 
+			mortgage payment.
+			</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card-2" onclick="window.open('https://github.com/Cleon01/Cleon01.github.io/blob/master/Projects/autoencoder.ipynb', '_blank');"> 
+                        <h3 class="greet-heading blue-text"> 
+                           Autoencoder </h3> 
+                        <p class="small-para blue-text"> Use autoencoder to find the best ways to compress images. Then try to reconstruct the 
+					images using those compressed representations. </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card-2" onclick="window.open('https://github.com/Cleon01/Cleon01.github.io/blob/master/Projects/character_prediction.ipynb', '_blank');"> 
+                        <h3 class="greet-heading blue-text">  Character Prediction </h3> 
+                        <p class="small-para blue-text"> Use RNN to predict the next characters given a string of input. </p> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card-2"  onclick="window.open('Projects/SVD_Image_Reduction_R.html', '_blank');"> 
+                        <h3 class="greet-heading blue-text"> 
+                            Image Compression using SVD </h3> 
+                        <p class="small-para blue-text">Used Singular Value Decomposition (SVD) to produce a compressed 
+					representation. (Created with R markdown.)</p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card-2"  onclick="window.open('Projects/phishing.html', '_blank');"> 
+                        <h3 class="greet-heading blue-text"> Phishing Detection 
+                        </h3> 
+                        <p class="small-para blue-text"> 
+                            Use BERT (an attention-based deep learning model) and 
+					subword tokenization to predict if a link is phishing.  </p> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card-2"  onclick="window.open('Projects/dga.html', '_blank');"> 
+                        <h3 class="greet-heading blue-text"> 
+                             DGA Classification 
+                        </h3> 
+                        <p class="small-para blue-text">   Proposed an integrated scheme for 
+					Domain Generation Algorithm (DGA) Botnet classification:
+					(1) Random-looking DGA: use ML models, (2) Word-looking DGA: use subword tokenization and DL models.</p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact"> 
+        <div class="contact-heading"> 
+            <h1 class="my-heading text-center">Contact Me</h1> 
+        </div> 
+        <div class="contact-content"> 
+            <div class="contact-details"> 
+                <div class="details"> 
+                    <h4>Email:  <span>srcliew@uwaterloo.ca</span> </h4>
+		    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/sea-ran-cleon-liew-113352191/" target="_blank"> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+	
+    </section> 
+    
+
+</body> 
+
+</html>
